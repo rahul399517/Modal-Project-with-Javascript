@@ -1,0 +1,38 @@
+.btn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.modalbox {
+  width: 500px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  background-color: white;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1;
+}
+
+.overlay {
+  width: 100%;
+  height: 43.6rem;
+  position: absolute;
+  top: -100px;
+  background-image: url(https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  opacity: 0.5;
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+.closemodalbox {
+  float: right;
+  width: 70px;
+  margin-top: -50px;
+}
+.hidden {
+  display: none;
+}
+body {
+  background-image: url(https://img.freepik.com/free-vector/watercolor-stains-abstract-background_23-2149107181.jpg?w=740&t=st=1676963195~exp=1676963795~hmac=a8c032edd09755efd833d4286a9c375430591f94c330ec2c8b685ac4a7d6f0ef);
+  background-repeat: no-repeat;
+  background-size: 100rem;
+}
